@@ -1,0 +1,391 @@
+.headerWrap{
+    width:100%;
+    background:#ebc9b9;
+}
+.headerWrap::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+
+#header{
+    width:1240px;
+    margin:0px auto;
+    padding:10px;
+}
+
+#header::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+.menu{
+    width:100%;
+    position: relative;
+}
+.menu>li{
+    width:20%;
+    float:left;
+    text-align: center;
+    font-size:20px;
+    font-weight: bold;
+}
+.menu>li>a{
+    display:block;
+    padding:10px 5px;
+    color:white;
+}
+
+.menu>li>a:hover{
+    background:white;
+    color:#ebc9b9;
+}
+.sub{
+    position: absolute;
+    width:20%;
+    z-index:10;
+    display:none;
+    background:#ebc9b9;
+}
+.sub>li>a{
+    display:block;
+    text-align: center;
+    font-size:20px;
+    color:white;
+    padding:10px 5px;
+}
+.sub>li>a:hover{
+    background:white;
+    color:#ebc9b9;
+}
+.visualWrap{
+    width:100%;
+    padding-bottom:100px;
+}
+.visualWrap{
+    display:block;
+    content:"";
+    clear:both;
+}
+#visual{
+    width:1240px;
+    margin:0px auto;
+    
+}
+#visual::after{
+    display:block;
+    content:"";
+    clear:both
+}
+#visual>p{
+    font-family: 'Great Vibes', cursive;
+    font-size:100px;
+    text-align:center;
+    padding:50px 0px;
+}
+.v{
+    width:32%;
+    float:left;
+    margin-right:2%;
+    border:1px solid grey;
+    box-sizing: border-box;
+    transition:0.5s;
+}
+.v::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+.v3{
+    margin-right:0%;
+}
+
+.v>h2{
+    text-align:center;
+    padding:10px 0px;
+}
+.v>p{
+    text-align:center;
+    
+    padding:0px 15px 20px;
+}
+.img1{
+    width:100%;
+    height:500px;
+    background:url(asset1.jpeg)no-repeat;
+    background-size:cover;
+}
+.img2{
+    width:100%;
+    height:500px;
+    background:url(asset2.jpeg)no-repeat;
+    background-size:cover;
+
+}
+.img3{
+    width:100%;
+    height:500px;
+    background:url(asset3.jpeg)no-repeat;
+    background-size:cover;
+}
+.v:hover{
+    transform:translateY(-20px);
+
+}
+.recipeWrap{
+    width:100%;
+    padding:10px 0px;
+    background:#dbded1;
+    
+}
+#RecipesBox{
+    width:100%;
+    background:#dbded1;
+    margin:30px 0px;
+    padding:20px 0px;
+    text-align:center;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    
+    box-sizing: border-box;
+    
+}
+
+#RecipesBox::after{
+    display:block;
+    content:"";
+    clear:both;
+}   
+#RecipesBox>h2{
+    font-size:30px;
+    padding:10px 0px;
+}
+#RecipesBox>p{
+    font-size:20px;
+    padding:10px 0px;
+}
+
+Button{
+    background:#e7bfac;
+}
+
+.contentWrap{
+    width:100%;
+    padding:100px 0px;
+}
+#content{
+    width:1240px;
+    margin:0px auto;
+}
+#content::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+#content>p{
+    width:600px;
+    margin:20px auto;
+    padding:0px 20px;
+    border-bottom:1px solid red;
+    text-align:center;
+}
+#content>p>span{
+    text-align:center;
+    font-size:40px;
+    padding:0px 30px;
+    border-bottom:1px solid white;
+
+}
+
+.con{
+    width:23.5%;
+    margin-right:2%;
+    float:left;
+    border:1px solid grey;
+    box-sizing: border-box;
+    margin-bottom:2%;
+    transition:0.5s
+}
+.con:hover{
+    transform:translateY(-20px);
+}
+.con>h2{
+    text-align:center;
+    padding:10px 0px;
+}
+.con>p{
+    text-align:center;
+    padding:10px 5px;
+}
+.con:nth-child(5){
+    margin-right:0;
+}
+.con:nth-child(9){
+    margin-right:0;
+}
+.b1{
+    width:100%;
+    height:300px;
+}
+
+.bg1{
+    background:url(asset4.jpeg)no-repeat;
+    background-size:cover;
+}
+.bg2{
+    background:url(asset5.jpeg)no-repeat;
+    background-size:cover;
+}
+
+.bg3{
+    background:url(asset6.jpeg)no-repeat;
+    background-size:cover;
+}
+
+.bg4{
+    background:url(asset7.jpeg)no-repeat;
+    background-size:cover;
+}
+
+.bg5{
+    background:url(asset8.jpeg)no-repeat;
+    background-size:cover;
+}
+
+.bg6{
+    background:url(asset9.jpeg)no-repeat;
+    background-size:cover;
+}
+.bg7{
+    background:url(asset10.jpeg)no-repeat;
+    background-size:cover;
+}
+
+.bg8{
+    background:url(asset11.jpeg)no-repeat;
+    background-size:cover;
+}
+.BrowseWrap{
+    width:100%;
+    padding:20px 0px;
+    background:#e7bfac;
+
+}
+.BrowerWrap::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+#Browse{
+    width:100%;
+    background:#e7bfac;
+    
+    text-align:center;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    
+}
+#Browse::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+#Browse>h2{
+    padding:20px 0px;
+}
+.pic{
+    width:1240px;
+    margin:0px auto;
+    padding-bottom:50px;
+    
+}
+.pic::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+.pic>div{
+    width:32%;
+    height:300px;
+    float:left;
+    margin-right:2%;
+    position: relative;
+}
+.pic>div:last-child{
+    margin-right:0%
+}
+.pic>div>p{
+    padding:10px;
+    font-size:20px;
+    font-weight: bold;
+}
+.pic1{
+    background:url(asset12.jpeg)no-repeat;
+    background-size:cover;
+}
+.pic2{
+    background:url(asset13.jpeg)no-repeat;
+    background-size:cover;
+}
+.pic3{
+    background:url(asset14.jpeg)no-repeat;
+    background-size:cover;
+}
+.pic>div>.cover{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.8);
+    top:0%;
+    left:0%;
+    transform: rotateX(90deg);
+    transition:0.5s;
+}
+.pic>div>.cover>a{
+    display:block;
+    position: absolute;
+    padding:10px 5px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    
+}
+.pic>div:hover .cover{
+    display:block;
+    transform:rotateX(0deg);
+}
+
+.footerWrap{
+    width:100%;
+    padding-top:100px;
+}
+#footer{
+    width:1240px;
+    margin:0px auto;
+    border-top:2px solid grey;
+    padding:30px 0px;
+}
+#footer::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+#footer>ul{
+    width:100%;
+}
+#footer>ul>li{
+    width:20%;
+    float:left;
+    text-align:center;
+
+}
+#footer>ul>li>a{
+    display:block;
+    font-size:15px;
+    padding:10px 5px;
+}
+#footer>ul>li>a:hover{
+    background:skyblue;
+    color:white;
+
+}
