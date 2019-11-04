@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var $btn_li = $("btns>li");
+    var $btn_li = $(".btns>li");
     var $btn_li_a = $btn_li.children("a");
     var $tab= $("#tab");
     var speed = 500;
