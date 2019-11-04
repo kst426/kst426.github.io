@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+ul,li{
+    list-style: none;
+    
+}
+
+
+#box{
+    width:600px;
+    height:300px;
+    border:1px solid black;
+    margin:100px auto;
+    position: relative;
+
+}
+.box1{
+    width:100px;
+    height:100px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    opacity: 0;
+    background-color:pink;
+    transition:all 1s;
+}
+
+.box2{
+    width:100px;
+    height:100px;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    opacity: 0;
+    background-color:aqua;
+    transition: all 1s;
+}
+.box1.on{
+    top:100px;
+    left:100px;
+    opacity: 1;
+}
+
+.box2.on{
+    bottom:100px;
+    right:100px;
+    opacity: 1;
+}
