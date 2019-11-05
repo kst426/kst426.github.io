@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:inherit
+}
+ul,li{
+    list-style: none;
+}
+
+#box{
+    width:500px;
+    
+    margin:200px auto;
+    border: 1px solid black;
+}
+dt{
+    background-color:#777;
+    text-align:left;
+    padding:10px 20px;
+    cursor: pointer;
+    color:white;
+    font-weight: bold;
+    border-bottom:1px solid black;
+}
+dt.on{
+    background-color:orange;
+
+}
+dd{
+    text-align: center;
+    padding:20px;
+    display:none;
+    
+    
+}
+dd.on{
+    display:block;
+}
