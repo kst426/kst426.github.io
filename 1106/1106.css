@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+ul,li{
+    list-style: none;
+}
+#header{
+    width:800px;
+    height:500px;
+    position: relative;
+    border:1px solid red;
+}
+.btns{
+    width:50px;
+    position: absolute;
+    left:20%;
+    top:20%;
+    z-index: 2;
+}
+.btns>div.on{
+    background:black;
+}
+.box1{
+    width:20px;
+    height:100px;
+    background:grey;
+    float:left;
+    margin-right:10px;
+    transform: skewX(45deg);
+    cursor: pointer;
+}
+.box2{
+    width:20px;
+    height:100px;
+    background:grey;
+    
+    float:left;
+    transform: skewX(45deg) translate(50%,50%);
+    cursor: pointer;
+}
+.box3{
+    width:20px;
+    height:100px;
+    background:grey;
+    
+    float:left;
+    margin-right:10px;
+    margin-top:10px;
+    transform: skewX(45deg) translateX(550%);
+    cursor: pointer;
+}
+.box4{
+    width:20px;
+    height:100px;
+    background:grey;
+    float:left;
+    margin-top:10px;
+    transform: skewX(45deg) translate(600%,50%);
+    cursor: pointer;
+}
+
+.box5{
+    width:400px;
+    height:400px;
+    background:aqua;
+    position: absolute;
+    top:10%;
+    right:10%;
+}
+
+.title{
+    width:200px;
+    position: absolute;
+    bottom:20px;
+    left:20px;
+    overflow: hidden;
+    float:left;
+}
+.title>li{
+
+    width:100%;
+    display:none;
+    
+    
+
+}
+.ntitle>li:nth-of-type(1){
+    display:block;
+}
