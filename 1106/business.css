@@ -28,12 +28,39 @@ ul,li{
     position: relative;
     overflow: hidden;
 }
-.swim{
+.box2>ul{
     width:100%;
     height:100%;
-    z-index:1;
+    position: relative;
+    overflow: hidden;
+}
+.box2>ul>li{
+    text-align:center;
+    font-size:50px;
+    font-weight: bold;
+}
+.box2>ul>li:nth-of-type(1){
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0%;
+    left:0%;
 }
 
+.box2>ul>li:nth-of-type(2){
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0%;
+    left:100%;
+}
+.box2>ul>li:nth-of-type(3){
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0%;
+    left:200%;
+}
 .bg{
     width:100%;
     height:100%;
@@ -42,25 +69,43 @@ ul,li{
     top:0%;
     right:-100%;
     transition:1s;
-    transform: skewX(180deg);
+    
 }
 .box2:hover .bg{
     right:0%;
-    transform:skewX(90deg);
+    
 }
 
 
 .box2>.next{
     position: absolute;
+    display:block;
+    width:30px;
+    padding:10px 0px;
+    color:black;
+    text-align: center;
+    background:white;
     bottom:0%;
-    left:10px;
-    font-size:20px;
+    left:30px;
+    font-size:40px;
+    border:1px solid black;
 }
 .box2>.prev{
     position: absolute;
+    display:block;
+    width:30px;
+    padding:10px 0px;
+    color:black;
+    text-align: center;
+    background:white;
     bottom:0%;
-    left:0%;
-    font-size:20px;
+    left:0px;
+    font-size:40px;
+    border:1px solid black;
+}
+.box2>a.on{
+    background-color:grey;
+    
 }
 .box3{
     width:25%;
