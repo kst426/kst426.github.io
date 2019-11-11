@@ -38,8 +38,8 @@ $(document).ready(function(){
 
     })
     function showslide(index){
-        $(".btn>li").removeClass("on");
-        $(".btn>li").eq(index).addClass("on");
+        $(".btn1>li").removeClass("on");
+        $(".btn1>li").eq(index).addClass("on");
         
         $("#Visual>div").fadeOut().removeClass("on");
         $("#Visual>div").eq(index).fadeIn().addClass("on");
