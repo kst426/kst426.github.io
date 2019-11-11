@@ -1,0 +1,131 @@
+﻿@import 'https://fonts.googleapis.com/css?family=Orbitron';
+
+/* reset */
+* {
+    margin:0;
+    padding: 0;
+}
+
+ul {list-style:none;}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bg { 
+    width:100%; 
+    height:100%; 
+    position:fixed; 
+    background:url(../img/bg1.jpg) no-repeat center center; background-size:cover;
+}
+
+.wrap { 
+    width:1000px; 
+    height:700px; 
+    position:absolute; 
+    left:50%; 
+    margin-left:-500px; 
+    top:50%; 
+    margin-top:-350px; 
+}
+
+/*slider*/
+.slider { 
+    width:550px; 
+    height:300px; 
+    border:1px solid #000; 
+    position:absolute; 
+    top:150px; 
+    right:0px;
+}
+
+.panel li { 
+    width:550px; 
+    height:300px; 
+    background:rgba(0,0,0,0.5); 
+    font: 100px/300px "orbitron"; 
+    color:#fff; 
+    position:absolute; 
+    top:0px; 
+    left:0px; 
+    text-align:center;
+}
+
+
+.navi { 
+    position:absolute; 
+    bottom:20px; 
+    left:50%; 
+    margin-left:-50px;
+}
+
+.navi li { 
+    margin-right:5px; 
+    float:left;
+}
+
+.navi li a { 
+    display:inline-block; 
+    width:20px; 
+    height:20px; 
+    background:#aaa; 
+    border-radius: 50%;
+}
+
+.navi li a.on { 
+    background:#fff;
+}
+
+.prev { 
+    position:absolute; 
+    left:0px; 
+    top:50%; 
+    margin-top:-22px; 
+    opacity:0; 
+    transition:all 0.5s;
+}
+
+.next { 
+    position:absolute; 
+    right:0px; 
+    top:50%; 
+    margin-top:-22px; 
+    opacity:0; 
+    transition:all 0.5s;
+}
+
+.slider:hover .prev { 
+    left:20px; 
+    opacity:1;
+}
+
+.slider:hover .next { 
+    right:20px; 
+    opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{text-decoration: none;}
+ul,li{
+    list-style: none;
+}
+#box{
+    width:500px;
+    height:500px;
+    margin:100px auto;
+    border:1px solid black;
+    position: relative;
+}
+.box1{
+    width:100px;
+    height:100px;
+    background-color:aqua;
+    position: absolute;
+    top:10%;
+    left:10%;
+}

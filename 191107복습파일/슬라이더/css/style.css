@@ -1,0 +1,293 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+ul {list-style: none; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+#wrap {
+  width: 100%;
+  margin: 0px auto;
+  overflow: hidden;
+}
+  
+#wrap #slider {
+  width: 100%;
+  height: 700px;
+  margin: 0px auto;
+}
+
+#wrap #slider .left::after {
+  display: block;
+  content: "";
+  clear: both; 
+}
+
+#wrap #slider .left {
+  width: 50%;
+  float: left;
+  overflow: hidden; 
+}
+
+#wrap #slider .left ul {
+  width: 300%;
+  margin-left: 0%;
+}
+
+#wrap #slider .left ul li {
+  width: 33.3333%;
+  height: 600px;
+  float: left; 
+}
+
+#wrap #slider .left ul .a1 {
+  background: url(../img/asset31.png) no-repeat; 
+}
+
+#wrap #slider .left ul .a2 {
+  background: url(../img/asset32.png) no-repeat; 
+}
+
+#wrap #slider .left ul .a3 {
+  background: url(../img/asset33.png) no-repeat; 
+}
+
+
+#wrap #slider .right::after {
+  display: block;
+  content: "";
+  clear: both; 
+}
+
+#wrap #slider .right {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 600px; 
+}
+
+#wrap #slider .right ul {
+  width: 150%;
+  position: relative;
+  margin-left: 0%; 
+}
+
+#wrap #slider .right ul li {
+  width: 33.3333%;
+  height: 600px;
+  float: left;
+  position: relative; 
+}
+
+#wrap #slider .right ul li h2 {
+  color: #333;
+  text-align: center;
+  display: block;
+  margin-top: 120px;
+  font-size: 30px; 
+}
+
+#wrap #slider .right ul li span {
+  text-align: center;
+  display: block;
+  margin: 40px 0px;
+  color: #bbb; 
+}
+
+#wrap #slider .right ul li h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  margin: 15px 0px; 
+}
+
+#wrap #slider .right ul li p {
+  text-align: center;
+  font-size: 15px;
+  color: #555;
+  margin: 15px 0px; 
+}
+
+#wrap #slider .right ul li img {
+  position: absolute;
+  left: 35%;
+  margin: 30px 0px; 
+}
+
+#wrap #slider .right ul li div {
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: 0.5s; 
+}
+
+#wrap #slider .right ul li .bg1 {
+  background: url(../img/asset31.png) no-repeat center; 
+}
+
+#wrap #slider .right ul li .bg1 h2 {
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin-top: 120px;
+  font-size: 30px; 
+}
+
+#wrap #slider .right ul li .bg1 span {
+  text-align: center;
+  display: block;
+  margin: 40px 0px;
+  color: #fff; 
+}
+
+#wrap #slider .right ul li .bg1 h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  margin: 15px 0px; 
+}
+
+#wrap #slider .right ul li .bg1 p {
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  margin: 15px 0px; 
+}
+
+#wrap #slider .right ul li .bg1 img {
+  position: absolute;
+  left: 35%;
+  margin: 30px 0px; 
+}
+
+#wrap #slider .right ul li .bg2 {
+  background: url(../img/asset32.png) no-repeat center; 
+}
+
+#wrap #slider .right ul li .bg2 h2 {
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin-top: 120px;
+  font-size: 30px; 
+}
+
+#wrap #slider .right ul li .bg2 span {
+  text-align: center;
+  display: block;
+  margin: 40px 0px;
+  color: #fff; 
+}
+
+#wrap #slider .right ul li .bg2 h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  margin: 15px 0px; 
+}
+
+#wrap #slider .right ul li .bg2 p {
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  margin: 15px 0px; 
+}
+
+#wrap #slider .right ul li .bg2 img {
+  position: absolute;
+  left: 35%;
+  margin: 30px 0px; 
+}
+
+#wrap #slider .right ul li .bg3 {
+  background: url(../img/asset33.png) no-repeat center; 
+}
+
+#wrap #slider .right ul li .bg3 h2 {
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin-top: 120px;
+  font-size: 30px; 
+}
+
+#wrap #slider .right ul li .bg3 span {
+  text-align: center;
+  display: block;
+  margin: 40px 0px;
+  color: #fff; 
+}
+
+#wrap #slider .right ul li .bg3 h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  margin: 15px 0px; 
+}
+
+#wrap #slider .right ul li .bg3 p {
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  margin: 15px 0px; 
+}
+
+#wrap #slider .right ul li .bg3 img {
+  position: absolute;
+  left: 35%;
+  margin: 30px 0px; 
+}
+
+#wrap #slider .right ul li.on > div {
+  opacity: 0;
+  transform: scaleX(0.2); 
+}
+
+#wrap #slider .right ul .b1 {
+  background: #ddd; 
+}
+
+#wrap #slider .right ul .b2 {
+  background: #ddd; 
+}
+
+#wrap #slider .right ul .b3 {
+  background: #ddd;
+}
+
+
+
+#wrap #slider .right .prev {
+  display: block;
+  width: 40px;
+  height: 60px;
+  background: #ccc;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  font-size: 40px;
+  color: #000; 
+}
+
+#wrap #slider .right .next {
+  display: block;
+  width: 40px;
+  height: 60px;
+  background: #eee;
+  position: absolute;
+  bottom: 0px;
+  left: 40px;
+  text-align: center;
+  font-size: 40px;
+  color: #000; 
+}
+
+  
