@@ -1,12 +1,15 @@
 $(document).ready(function(){
 
-    $(".list").on("mouseover",function(){
-        $(".panel").stop().slideDown();
+    $(".list>li").on("mouseover",function(){
+        $(".bgPanel").stop().slideDown();
+        
     });
 
-    $(".panel").on("mouseleave",function(){
-        $(".panel").stop().slideUp();
+    $(".bgPanel").on("mouseleave",function(){
+        $(".bgPanel").stop().slideUp();
+        
     });
+    
     showslide(0);
     var total = $("#Visual li").length;
 
@@ -45,6 +48,29 @@ $(document).ready(function(){
         $("#Visual>div").eq(index).fadeIn().addClass("on");
         currentIndex = index;
     }
+
+    $(".glist>li").on("click",function(e){
+		e.preventDefault();
+		$(".glist>li").removeClass("on");
+		$(".gimg>div").removeClass("on");
+		$(this).addClass("on");
+		var x = $(this).index();
+		$(".gimg>div").eq(x).addClass("on");
+    });
+    
+    $(".btn").on("click",function(e){
+        e.preventDefault();
+        $(".top").animate({"width":"100%"},500,function(){
+            $(".right").animate({"height":"100%"},500,function(){
+                $(".bottom").animate({"width":"100%"},500,function(){
+                    $(".left").animate({"height":"100%"},500,function(){
+                        $(".Mimg").css({"background":"url(img/con4.jpeg)no-repeat","background-size":"cover"})
+                    });
+                });
+            })
+        })
+    })
+
  
 
 })
