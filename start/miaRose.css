@@ -14,7 +14,7 @@ ul,li{
 #header{
     width:100%;
     background:peachpuff;
-    padding:10px 0px;
+    padding:15px 0px;
 }
 #header::after{
     display:block;
@@ -35,7 +35,7 @@ ul,li{
     text-align:center;
     color:white;
     font-weight: bold;
-    font-size:20px;
+    font-size:25px;
     line-height: 40px;
     
     box-sizing: border-box;
@@ -48,11 +48,11 @@ ul,li{
 .sub{
     display:none;
 }
-#Visual{
+#VisualWrap{
     width:100%;
     margin-bottom:100px;
 }
-#Visual::after{
+#VisualWrap::after{
     display:block;
     content:"";
     clear:both;
@@ -67,11 +67,11 @@ ul,li{
     padding:80px 0px;
     font-family: 'Caladea', serif;
 }
-#content{
+#visual{
     width:1240px;
     margin:0px auto;
 }
-.con{
+.v{
     width:32%;
     height:700px;
     float:left;
@@ -80,7 +80,7 @@ ul,li{
     box-sizing: border-box;
     transition:0.5s;
 }
-.con3{
+.v3{
     margin-right:0%;
 }
 
@@ -112,13 +112,14 @@ ul,li{
     padding:20px 30px;
 }
 
-.con:hover{
+.v:hover{
     transform: translateY(-25px);
 }
 .address{
     width:100%;
-    padding:40px 0px;
+    padding:50px 0px;
     background:#dbdedd;
+    margin-bottom:100px;
 }
 #addressWrap{
     width:1240px;
@@ -126,16 +127,63 @@ ul,li{
     text-align:center;
     border-top:2px solid white;
     border-bottom:2px solid white;
-    padding:20px 0;
+    padding:30px 0;
     
 }
 #addressWrap>h2{
     padding:30px 0;
+    font-size:35px;
 }
 #addressWrap>p{
     padding-bottom:30px;
-    font-size:20px;
+    font-size:25px;
 }
 #addressWrap>input{
-    padding:5px 10px;
+    width:200px;
+    font-size:20px;
+    
 }
+#click{
+    background:red;
+}
+.contentWrap{
+    width:100%;
+}
+#content{
+    width:1240px;
+    margin:0px auto;
+}
+#content::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+#content>p{
+    width:800px;
+    margin:30px auto;
+    padding:0px 20px;
+    text-align:center;
+    border-bottom:1px solid red;
+}
+#content>p>span{
+    font-size:35px;
+    
+    border-bottom:1px solid white;
+}
+
+.con{
+    width:23%;
+    height:700px;
+    float:left;
+    margin-right:2%;
+    margin-bottom:2%;
+    border:1px solid black;
+    box-sizing: border-box;
+}
+.con:nth-child(5){
+    margin-right:0%;
+}
+.con:nth-child(9){
+    margin-right:0%;
+}
+
