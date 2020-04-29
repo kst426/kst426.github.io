@@ -21,7 +21,7 @@ $(document).ready(function(){
         if(width_size>=577){
             $("#moPanel").css({"display":"none"})
         }else{
-            $(":#moPanel").css({"display":"none"});
+            $("#moPanel").css({"display":"none"});
         }
     })
 
